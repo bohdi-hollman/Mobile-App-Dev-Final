@@ -8,6 +8,6 @@ import androidx.room.PrimaryKey
 class Vocab(
 
     @PrimaryKey(autoGenerate = true) val id: Int,
-    @ColumnInfo(name = "text") val word: String
+    @ColumnInfo(name = "text") val text: String
 
 )
